@@ -1,0 +1,130 @@
+@media only screen and (min-width: 768px) and (max-width: 959px){
+    
+    }
+
+body{
+    background: rgb(188, 183, 183);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.containor{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: rgb(229, 211, 211);
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(25, 24, 24, 0.1);
+}
+
+
+.containor .left_page{
+    position: relative;
+    background: rgb(216, 177, 205);
+    padding: 20px;
+}
+.profileText h6{ 
+    font-size: 1.4em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 2em;
+}
+.profileText h6 span{ 
+    font-size: 0.8em; 
+    font-weight: 300;
+    line-height: 1.5em;
+}
+.title{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+.contact ul{
+    position: relative;
+}
+.contact ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.icon{ 
+    width: 30px;
+    font-size: 18px;
+    color: blue;
+}
+.text{
+    font-weight: 300;
+    line-height: 2.5em;
+}
+.education{
+    margin-bottom: 10px;
+    
+}
+.education{
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.Degree{
+    font-weight: 300;
+    line-height: 2em;
+}
+.percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: rgb(47, 46, 47);
+    display: block;
+    margin-top: 10px;
+
+}
+.percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgb(230, 138, 215);
+}
+
+.containor .right_page{
+    position: relative;
+    background: rgb(244, 235, 242);
+    padding: 40px;
+}
+.p{
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 1.5em;
+}
+.ptext{
+    font-weight: 300;
+    line-height: 1.5em;
+}
+.courses{
+    font-weight: 300;
+    line-height: 1.5em;
+    line-height: 2em;
+}
+.percentP{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: rgb(47, 46, 47);
+    display: block;
+    margin-top: 10px;
+
+}
+.percentP div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgb(230, 138, 215);
+}
